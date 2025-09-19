@@ -1,0 +1,23 @@
+[SERVER]
+SERVER_PORT = 8989
+
+[CACHE_PATHS]
+CACHE_ROOT = "./cache"
+FASTER_WHISPER_MODEL_FOLDER = "faster-whisper"
+OPENWAKEWORD_MODEL_FOLDER = "openwakeword"
+
+[LLM]
+# Compatible with OpenAI-like APIs
+LLM_BASE_URL = "https://api.deepseek.com/v1"
+
+[TTS]
+# GPT-SoVITS TTS API endpoint
+TTS_API_URL = "http://127.0.0.1:9880/tts"
+# TODO: Integrate these into default config
+TTS_REF_AUDIO_PATH = "/path/to/your/reference_audio.wav"
+TTS_PROMPT_TEXT = "Full text that matches the reference audio"
+TTS_PROMPT_LANG = "en"
+
+[STT]
+STT_MODEL_SIZE = "small"
+STT_COMPUTE_TYPE = "float16" # Available: int8, int16, float16, float32 (The smaller the faster, but less accurate)

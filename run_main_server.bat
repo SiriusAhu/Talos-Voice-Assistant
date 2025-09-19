@@ -1,0 +1,1 @@
+uv run python -m server.main_server
