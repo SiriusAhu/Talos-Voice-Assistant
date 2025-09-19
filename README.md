@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Python](https://img.shields.io/badge/python-3.12.11-blue?logo=python)](https://www.python.org/downloads/release/python-31211/)
+[![Version](https://img.shields.io/badge/version-0.1.0-blue)](https://github.com/SiriusAhu/Talos-Voice-Assistant/releases) [![Python](https://img.shields.io/badge/python-3.12.11-blue?logo=python)](https://www.python.org/downloads/release/python-31211/)
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
 [![GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
